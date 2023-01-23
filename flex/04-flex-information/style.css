@@ -12,6 +12,27 @@ img {
   font-weight: 900;
 }
 
+/* Solution */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 52px;
+  flex-wrap: wrap;
+}
+.barberrycontainer, .chillicontainer, .peppercontainer, .saffroncontainer  { 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
